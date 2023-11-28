@@ -1,0 +1,197 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F9FAFC;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    height: 477px;
+    background-color: #ffff;
+    margin: 100px auto ;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0,0.1);
+    font-family: 'Outfit', sans-serif;
+   font-family: 'Roboto', sans-serif;
+    align-items: center;
+    }
+
+.login{
+    width: 48%;
+}
+     
+
+.page{
+  padding: 2rem;
+  text-align: center;
+}
+
+h3{
+color: #7D848E;
+}
+
+p{
+    color:rgb(200, 203, 208);
+}
+
+hr{
+    width: 15%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #0EC896;
+}
+  
+.form{
+    width: 40%;
+    margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+input{
+    height: 2rem;
+    width: 15rem;
+    border: 2px solid #efefef;
+}
+
+input::placeholder{
+  color: rgb(200, 203, 208);
+  font-size: 10px;
+}
+
+.password{
+    margin-top: 0.4rem;
+}
+
+.submit{
+    width: 16rem;
+    height: 2.3rem;
+    margin-top: 1rem;
+    background-color: rgba(20, 200, 152,0.9);
+    color: #fff;
+    font-size: 11px;
+    border: none;
+}
+
+.account{
+    margin-top: 2rem;
+    color: #11C794;
+    font-size: 12px;
+}  
+
+.footer{
+    font-size: 11px;
+    margin-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #11C794;
+    cursor: pointer;
+}
+
+.lady {
+   width: 100%;
+   height: 30rem;
+   margin-bottom: 0;
+} 
+
+@media only screen and (min-width:200px) and (max-width:600px){
+   .container{
+    flex-direction: column-reverse;
+    width: 60%;
+    height: unset;
+   }
+   
+   .form{
+   width: 80%;
+   margin: unset;
+   }
+
+   .login{
+    width: 100%;
+   }
+
+    input {
+    width: 10rem;
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+   }
+   
+   .email{
+    
+   }
+
+   .submit{
+    width: 6.7rem;
+    height: 1.8rem ;
+   }
+
+   .account{
+    font-size: 9px;
+   }
+
+   .get{
+  font-size:  9px;
+   }
+    
+   .lady{
+    height: 20rem;
+   }
+}
+
+@media only screen and (min-width:601px) and (max-width:900px){
+    .container{
+     flex-direction: column-reverse;
+     width: 40%;
+     height: unset;
+    }
+    
+    .form{
+    width: 80%;
+    margin: unset;
+    }
+ 
+    .login{
+     width: 100%;
+    }
+ 
+     input {
+     width: 15rem;
+     position: relative;
+     left: 10%;
+     margin-top: 20px;
+    }
+
+ 
+    .submit{
+     width: 15rem;
+     height: 1.8rem ;
+    }
+ 
+    .account{
+     font-size: 9px;
+    }
+ 
+    .get{
+   font-size:  9px;
+    }
+     
+    .lady{
+     height: 20rem;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+
